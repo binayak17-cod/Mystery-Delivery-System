@@ -5,7 +5,10 @@
 
 
 The Mystery Delivery System is a Python-based logistics simulation for a fictional delivery company called FastBox.
+
+
 The system simulates one day of delivery operations involving:
+
 
 - Warehouses
 
@@ -30,22 +33,39 @@ The application determines which agent should handle each package, calculates an
 Mystery-Delivery-System/
 
 │
+
 ├── main.py
+
 ├── data.json
+
 ├── report.json
+
 ├── README.md
+
 │
+
 └── test_cases/
+
     ├── test_case_1.json
+
     ├── test_case_2.json
+
     ├── test_case_3.json
+
     ├── test_case_4.json
+
     ├── test_case_5.json
+
     ├── test_case_6.json
+
     ├── test_case_7.json
+
     ├── test_case_8.json
+
     ├── test_case_9.json
+
     └── test_case_10.json
+
 ```
 
 
@@ -59,14 +79,23 @@ The application follows these steps:
 
 
 1. Read the input JSON file.
+
 2. Normalize the warehouse, agent, and package data.
+
 3. Calculate Euclidean distances.
+
 4. Assign each package to the nearest delivery agent.
+
 5. Find an efficient delivery order for each agent.
+
 6. Simulate the deliveries.
+
 7. Calculate total distance and efficiency for each agent.
+
 8. Determine the best agent.
+
 9. Generate the final `report.json`.
+
 
 ---
 
@@ -82,6 +111,7 @@ The system uses Euclidean distance between two points.
 Distance = √((x2 - x1)² + (y2 - y1)²)
 
 ```
+
 
 This distance calculation is used for both package assignment and delivery route calculation.
 
@@ -392,16 +422,34 @@ The program searches for the delivery order that minimizes the total travel dist
 
 
 ### Agents with No Packages
+
+
 Some agents may not receive any packages.
+
+
 **Solution:**
+
 These agents are still included in the final report with zero packages, zero distance, and zero efficiency.
+
+
 ---
+
+
 ## Technologies Used
+
+
 - Python
+
 - JSON
+
 - `math`
+
 - `argparse`
+
+
 No external Python packages are required.
+
+
 ---
 
 
