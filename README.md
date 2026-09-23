@@ -5,10 +5,7 @@
 
 
 The Mystery Delivery System is a Python-based logistics simulation for a fictional delivery company called FastBox.
-
-
 The system simulates one day of delivery operations involving:
-
 
 - Warehouses
 
@@ -85,7 +82,6 @@ The system uses Euclidean distance between two points.
 Distance = √((x2 - x1)² + (y2 - y1)²)
 
 ```
-
 
 This distance calculation is used for both package assignment and delivery route calculation.
 
@@ -396,34 +392,16 @@ The program searches for the delivery order that minimizes the total travel dist
 
 
 ### Agents with No Packages
-
-
 Some agents may not receive any packages.
-
-
 **Solution:**
-
 These agents are still included in the final report with zero packages, zero distance, and zero efficiency.
-
-
 ---
-
-
 ## Technologies Used
-
-
 - Python
-
 - JSON
-
 - `math`
-
 - `argparse`
-
-
 No external Python packages are required.
-
-
 ---
 
 
