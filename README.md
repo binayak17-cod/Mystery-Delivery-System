@@ -33,39 +33,22 @@ The application determines which agent should handle each package, calculates an
 Mystery-Delivery-System/
 
 │
-
 ├── main.py
-
 ├── data.json
-
 ├── report.json
-
 ├── README.md
-
 │
-
 └── test_cases/
-
     ├── test_case_1.json
-
     ├── test_case_2.json
-
     ├── test_case_3.json
-
     ├── test_case_4.json
-
     ├── test_case_5.json
-
     ├── test_case_6.json
-
     ├── test_case_7.json
-
     ├── test_case_8.json
-
     ├── test_case_9.json
-
     └── test_case_10.json
-
 ```
 
 
@@ -79,23 +62,14 @@ The application follows these steps:
 
 
 1. Read the input JSON file.
-
 2. Normalize the warehouse, agent, and package data.
-
 3. Calculate Euclidean distances.
-
 4. Assign each package to the nearest delivery agent.
-
 5. Find an efficient delivery order for each agent.
-
 6. Simulate the deliveries.
-
 7. Calculate total distance and efficiency for each agent.
-
 8. Determine the best agent.
-
 9. Generate the final `report.json`.
-
 
 ---
 
